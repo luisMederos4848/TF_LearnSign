@@ -1,1 +1,17 @@
+Feature: US02: Revisar mi progreso de aprendizaje
+
+Como usuario de la aplicación, deseo poder ver, de manera detallada, 
+mi progreso de aprendizaje con el propósito de recibir una mejor experiencia y tener una mejor rutina.
+
+Scenario E01-Observar las preguntas bien contestadas y mal contestadas
+Given
+When
+And
+Then
+
+Scenario E02-Ver el calendario de actividad
+Given
+When
+And
+Then
 
