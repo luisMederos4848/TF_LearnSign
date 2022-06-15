@@ -1,1 +1,22 @@
+Feature: US03: Realizar pago de la membresía
 
+Como usuario de la aplicación, quiero pagar, con distintos métodos, 
+la membresía que proporciona la aplicación para así no tener ninguna limitación en mi aprendizaje.
+
+Scenario E01-Ver los beneficios de la membresía
+Given
+When
+And
+Then
+
+Scenario E02-Realizo el pago con tarjeta
+Given
+When
+And
+Then
+
+Scenario E03-No se puede realizar el pago con tarjeta
+Given
+When
+And
+Then
