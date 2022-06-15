@@ -1,40 +1,33 @@
-fondopaginaweb{   /*color del fondo de la pagina web*/
-    color: darkseagreen;
+body{
+    margin: 0em;
+    background-color: rgba(144,238,144,0.38);
 }
 
-fondoabout{  /*color de la parte final de la pagina web*/
-    color: dimgrey;
+.cover{
+    height: 920px;
+    background-image: url("images/fondo.jpg");
+    color: white;
+    background-size: 1400px;
+    background-position: top;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }
 
-titulos { /*color, tamaño y alineacion de los titulos de la pagina web*/
-    color: black;
-    font-size: xx-large;
-    text-align: left;
+.cover-small{
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal;
 }
 
-texto{ /*color, tamaño y alineacion de los parrafos de la pagina web*/
-    color: black;
-    font-size: large;
-    text-align: center;
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
 }
 
-tituloestilo { /* tipo de letra del titulo*/
-    font-family: Arial Black;
+.card-title{
+    min-height: 3rem;
 }
-
-textoestilo { /* tipo de letra de los parrafos*/
-    font-family: Arial;
-}
-
-fondocolorbotones{
-    color: forestgreen;
-}
-
-letrabotones { /* tipo de letra de los botones*/
-    font-family: Arial;
-}
-textobotones { /*color, tamaño y alineacion de los botones*/
-    color: black;
-    font-size: large;
-    text-align: center;
+.card-text{
+    min-height: 10rem;
 }
