@@ -1,1 +1,53 @@
+Feature: US01: Registro en el aplicativo
+
+Como usuario deseo que cuando digite mi informacion tanto como correo o telefono, sea verificado al enviar un codigo y verificarlo desde el aplicativo.
+
+Scenario E01: Me registro con mi correo personal
+
+Where Me encuentro en registro
+
+When Digite mi correo personal
+
+  And Seleccione Registrar
+  And Me pida colocar un codigo que ha sido enviado a mi correo electronico
+ 
+Then La verificacion estara lista y ya podre ingresar al aplicativo, porque se ha verificado que mi informacion es la correcta.
+
+
+Scenario E02: Me registro con mi numero telefonico
+
+Where Me encuentro en registro
+
+When Digito mi numero telefonico
+
+  And Seleccione Registrar
+  And Me pida colocar un codigo que ha sido enviado a mi numero telefonico por mensaje 
+ 
+Then La verificacion estara lista y ya podre ingresar al aplicativo, porque se ha verificado que mi informacion es la correcta.
+
+
+Scenario E03: Registro con numero telefonico incorrecto
+
+Where Me encuentro en registro
+
+When Digito mi numero telefonico incorrectamente
+
+  And Seleccione Registrar
+  And Me pida colocar un codigo que ha sido enviado a mi numero telefonico por mensaje 
+  And no me llegara ningun mensaje, porque la digitacion de mi numero telefonico ha sido incorrecta
+ 
+Then La verificacion no estara lista y ya no podre ingresar al aplicativo, porque no se ha verificado que mi informacion sea la correcta.
+
+
+Scenario E04: Registro con correo personal incorrecto
+Where Me encuentro en registro
+
+When Digito mi correo personal
+
+  And Seleccione Registrar
+  And Me pida colocar un codigo que ha sido enviado a mi correo personal por mensaje 
+  And no me llegara ningun mensaje, porque la digitacion de mi numero telefonico ha sido incorrecta
+  
+Then  La verificacion no estara lista y ya no podre ingresar al aplicativo, porque no se ha verificado que mi informacion sea la correcta.
+
 
