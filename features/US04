@@ -1,1 +1,15 @@
+Feature: US02: Funcionamiento de las lecciones interactivas
 
+Como usuario quiero acceder a las lecciones interactivas para aprender mas vocabulario y poder
+medir mi conocimiento esperando un resultado positivo o negativo al momento de responder en la lección.
+
+Scenario E01-Acceder a la leccion y dar una respuesta correcta
+Given Presione el icono de una lección y me dirige a la interfaz de la lección
+When Seleccione o escriba la respuesta de manera correcta.
+Then Se mostrarán una nueva pantalla mostrando un icono de un pulgar arriba y con un boton para seguir con la siguiente pregunta de la lección
+
+Scenario E01-Acceder a la leccion y dar una respuesta incorrecta
+Given Presione el icono de una lección y me dirige a la interfaz de la lección
+When Seleccione o escriba la respuesta de manera incorrecta.
+Then Se mostrarán una nueva pantalla mostrando un icono de un pulgar abajo y con un boton para volver a intentar la prueba que se fallo sin permitirnos dar la
+siguiente prueba. Esto se repitira hasta que el usuario de la prueba con la respuesta correcta.
