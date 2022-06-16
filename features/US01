@@ -4,7 +4,7 @@ Como usuario deseo que cuando digite mi informacion tanto como correo o telefono
 
 Scenario E01: Me registro con mi correo personal
 
-Where Me encuentro en registro
+Given Me encuentro en registro
 
 When Digite mi correo personal
 
@@ -16,7 +16,7 @@ Then La verificacion estara lista y ya podre ingresar al aplicativo, porque se h
 
 Scenario E02: Me registro con mi numero telefonico
 
-Where Me encuentro en registro
+Given Me encuentro en registro
 
 When Digito mi numero telefonico
 
@@ -28,7 +28,7 @@ Then La verificacion estara lista y ya podre ingresar al aplicativo, porque se h
 
 Scenario E03: Registro con numero telefonico incorrecto
 
-Where Me encuentro en registro
+Given Me encuentro en registro
 
 When Digito mi numero telefonico incorrectamente
 
@@ -40,7 +40,7 @@ Then La verificacion no estara lista y ya no podre ingresar al aplicativo, porqu
 
 
 Scenario E04: Registro con correo personal incorrecto
-Where Me encuentro en registro
+Given Me encuentro en registro
 
 When Digito mi correo personal
 
