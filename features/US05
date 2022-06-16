@@ -1,1 +1,17 @@
+Feature: US05: Restablecer contraseña en caso de olvidarla
+
+Como usuario de la aplicación, deseo poder cambiar mi contraseña con el propósito de poder ingresar de nuevo a la aplicación.
+
+Scenario E01-Restablezco mi contraseña
+Given Me encuentro en la ventana de verificacion de usuario
+When Presiono el botón de "Enviar Código"
+And Ingreso el codigo de verificacion correcto
+Then El sistema mostrará una pantalla que me permitira cambiar de contraseña
+
+Scenario E02- No se puede restablecer mi contraseña
+Given Me encuentro en la ventana de verificacion de usuario
+When Presiono el botón de "Enviar Código"
+And Ingreso el codigo de verificacion incorrecto
+Then El sistema mostrará una notificacion de codigo de verificacion incorrecto 
+
 
