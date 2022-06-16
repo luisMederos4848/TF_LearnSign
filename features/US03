@@ -4,19 +4,23 @@ Como usuario de la aplicación, quiero pagar, con distintos métodos,
 la membresía que proporciona la aplicación para así no tener ninguna limitación en mi aprendizaje.
 
 Scenario E01-Ver los beneficios de la membresía
-Given
-When
-And
-Then
+Given Me encuentro en el menú principal
+When Presiono el botón de ajustes de cuenta en la parte superior izquierda
+And Presiono el botón de comprar membresía
+Then El sistema mostrará una pantalla que contiene las ventajas y el precio de la membresía
 
 Scenario E02-Realizo el pago con tarjeta
-Given
-When
-And
-Then
+Given Me encuentro en la pantalla de la membresía
+When Presiono el botón "comprar a $3.00"
+And Selecciono mi agente financiero
+And Relleno los datos de mi tarjeta Datos correctos: true
+And Presiono el botón confirmar compra
+Then El sistema mostrará una pantalla de pago realizado correctamente
 
 Scenario E03-No se puede realizar el pago con tarjeta
-Given
-When
-And
-Then
+Given Me encuentro en la pantalla de la membresía
+When Presiono el botón "comprar a $3.00"
+And Selecciono mi agente financiero
+And Relleno los datos de mi tarjeta Datos correctos: false
+And Presiono el botón confirmar compra
+Then El sistema mostrará una pantalla que advierte que los datos ingresados son incorrectos
