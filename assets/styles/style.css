@@ -1,0 +1,45 @@
+body{
+    margin: 0em;
+    background-color: rgba(144,238,144,0.38);
+}
+body1{
+    margin: 0em;
+    background-color: white;
+}
+.cover{
+    height: 920px;
+    background-image: url("../images/fondo.jpg");
+    color: white;
+    background-size: 1400px;
+    background-position: top;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+.cover-small{
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.card-title{
+    min-height: 3rem;
+    text-align: center;
+}
+.card-text{
+    min-height: 10rem;
+    text-align: center;
+}
+
+.container1{
+
+    width: 2000px;
+}
+
+
