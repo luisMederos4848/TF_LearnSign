@@ -1,45 +1,98 @@
-body{
-    margin: 0em;
-    background-color: rgba(144,238,144,0.38);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
 }
-body1{
+
+body{
     margin: 0em;
     background-color: white;
 }
+
+header{
+    margin: 0em;
+    background-color: white;
+
+}
+
+section{
+    min-height: 100vh;
+    padding-top: 4.7rem;
+    padding-bottom: 2rem;
+}
+
 .cover{
-    height: 920px;
-    background-image: url("../images/fondo.jpg");
-    color: white;
-    background-size: 1400px;
+    height: 950px;
+    background-image: url("images/fondohome.png");
+    color: black;
+    background-size: 1920px;
     background-position: top;
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: darken;
+    background-color: white;
+
 }
 
 .cover-small{
-    height:400px;
+    height:420px;
     background-size: cover;
     background-position: center;
     background-blend-mode: normal;
 }
 
 .card{
-    border: 0 !important;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, 0 2px 4px -1px rgba(0,0,0,0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.btn{
+    border-radius:10px;
+    overflow: hidden;
+    border-style: none;
+}
+
+.inicio h2{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.inicio h2 span{
+    color:green;
+}
+
+.producto h1{
+    font-size: 3rem;
+}
+
+.producto{
+    height: 950px;
+    background-image: url("images/fondoprueba.png");
+    background-size: 1910px;
+    background-position: top;
+    background-color: white;
+}
+
+.funciona{
+    height: 950px;
+    background-size: 1950px;
+    background-position: top;
+    background-color: white;
 }
 
 .card-title{
     min-height: 3rem;
-    text-align: center;
 }
 .card-text{
     min-height: 10rem;
-    text-align: center;
 }
 
-.container1{
-
-    width: 2000px;
+.btn:hover {
+    transform: scale(1.05);
+    color: #fff;
 }
 
 
