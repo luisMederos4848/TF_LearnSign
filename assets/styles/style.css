@@ -17,6 +17,7 @@ body{
 header{
     margin: 0em;
     background-color: white;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
 
 }
 
@@ -55,6 +56,12 @@ section{
     border-style: none;
 }
 
+.funciona .container .video-product iframe{
+    border-radius:10px;
+}
+
+
+
 .inicio h2{
     font-size: 2rem;
     line-height: 1;
@@ -62,6 +69,11 @@ section{
 
 .inicio h2 span{
     color:green;
+}
+
+.funciona p{
+    color:green;
+    line-height: 30px;
 }
 
 .producto h1{
