@@ -2,8 +2,7 @@
 <html lang="es">
 <head>
     <title>LearnSign</title>
-    <link   rel="icon" href="assets/images/unknown.png">
-
+    <link rel="icon" href="images/unknown.png">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -13,77 +12,89 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="assets/images/learn_sign.png" width="125px" height="75px"></a>
+<header class="fixed-top">
+    <nav class="navbar navbar-light me-5">
+        <a class="navbar-brand ms-4" href="#"><img src="assets/images/learn_sign.png" width="180px" height="50px"></a>
         <ul class="nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio </a>
+                <a class="nav-link" href="#inicio" style="color:darkseagreen "><strong>Inicio</strong></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Nuestro Producto</a>
+                <a class="nav-link" href="#producto" style="color:darkseagreen"><strong>Nuestro Producto</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#funciona" style="color:darkseagreen"><strong>¿Cómo funciona?</strong></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Modo Premium</a>
+                <a class="nav-link" href="#premium" style="color:darkseagreen"><strong>Modo Premium</strong></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">¿Cómo funciona?</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Consulta</a>
+                <a class="nav-link" href="#" style="color:darkseagreen"><strong>Consulta</strong></a>
             </li>
         </ul>
     </nav>
-    <div class="cover d-flex justify-content-center align-items-center flex-column">
-        <h1>
-            <img src="assets/images/learn_sign.png" width="400px">
-        </h1>
-        <p>
-            Una nueva manera de aprender el lenguaje de señas de forma
-            más interactiva y divertida
-        </p>
-        <h2>
-         <img src="assets/images/googleplay.png" width="200px" >
-        </h2>
-    </div>
 </header>
-<section class="section">
-    <div class="container mt-5 mb-3">
+<section class="inicio" id="inicio">
+    <div class="cover d-flex justify-content-center align-items-center flex-column pb-5">
+        <a class="mb-n1">
+            <img src="assets/images/manito.png" width="200px">
+        </a>
+        <a class="">
+            <img src="assets/images/learn_sign.png" width="700px">
+        </a>
+        <h2 class="py-5 col-lg-7 text-center">
+            Una nueva manera de aprender el lenguaje de señas de forma<span>
+            más interactiva y divertida</span>
+        </h2>
+        <div>
+            <a href="#" class="btn lg-d-none-block">
+                <img src="https://llamafood.com/assets/images/button-playStore.svg">
+            </a>
+            <a href="#" class="btn lg-d-none-block">
+                <img src="https://llamafood.com/assets/images/appstore-mobile.svg" width="180px">
+            </a>
+        </div>
+
+    </div>
+</section>
+<section class="producto" id="producto">
+    <h1 class="text-center mt-4">
+        Nuestro producto
+    </h1>
+    <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
                 <div class="card">
-                    <div class="cover cover-small" style="background-image: url(assets/images/imagen_señas2.png)">
+                    <div class="cover cover-small" style="background-image: url(assets/images/comprender.PNG)">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Comprender mejor a las personas sordomudas</h5>
-                        <p></p>
-                        <p class="card-text">Nos enfocamos en disminuir los problemas de comunicacion con las
+                        <h5 class="card-title text-center" style="color:green">Comprender mejor a los sordomudos</h5>
+                        <p class="card-text text-center">Nos enfocamos en disminuir los problemas de comunicacion con las
                             personas con dificultades auditivas y del habla.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
                 <div class="card">
                     <div class="cover cover-small" style="background-image: url(assets/images/imagen_señas1.png)">
-
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Al alcance de todos</h5>
-                        <p class="card-text">Cualquier persona puede aprender gracias a nuestra metodología amigable
+                        <h5 class="card-title text-center"style="color:green">Al alcance de todos</h5>
+                        <p class="card-text text-center">Cualquier persona puede aprender gracias a nuestra metodología amigable
                             de manera gratuita.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
                 <div class="card">
                     <div class="cover cover-small" style="background-image:url(assets/images/interactivo.PNG)">
 
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Aplicación interactiva</h5>
-                        <p class="card-text">Buscamos optimizar el aprendizaje
+                        <h5 class="card-title text-center" style="color:green">Aplicación interactiva</h5>
+                        <p class="card-text text-center">Buscamos optimizar el aprendizaje
                             de señas mediante formas didácticas y divertidas.
                         </p>
                     </div>
@@ -92,40 +103,24 @@
         </div>
     </div>
 </section>
-<section>
-
-<body1>
-    <div1 class="container1" >
-        <div1 class="row justify-content-center">
-            <div1 class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
-                <div1 class="card">
-                    <div1 class="card-body">
-                        <h3 class="card-title">Modo Premium</h3>
-
-                        <div class="d-flex justify-content-center align-items-center" >
-                            <h1>
-                                <img src="assets/images/estrella.png" width="200px">
-                            </h1>
-
-
-                        </div>
-
-                        <p></p>
-                        <p class="card-text">Learnsign es una aplicación que
-                            busca ayudar a mas personas a
-                            aprender este hermoso lenguaje.
-                            Con tu membrecia nos ayudas a
-                            seguir mejorando
-                            Beneficios:
-                            Vidas infinitas
-                            0 anuncios
-                        </p>
-                    </div1>
-                </div1>
-            </div1>
-            </div1>
-            </div1>
-</body1>
+<section class="funciona" id="funciona">
+    <h1 class="text-center mt-4">
+        ¿Cómo funciona?
+    </h1>
 </section>
+<section class="premium" id="premium">
+    <h1 class="text-center mt-4">
+        Modo premium
+    </h1>
+</section>
+
+
+<script type="text/javascript" src="assets/scripts/main.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400
+    });
+</script>
 </body>
 </html>
