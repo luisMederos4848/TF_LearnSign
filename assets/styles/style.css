@@ -28,7 +28,7 @@ section{
 
 .cover{
     height: 950px;
-    background-image: url("assets/images/fondohome.png");
+    background-image: url("../images/fondohome.png");
     color: black;
     background-size: 1920px;
     background-position: top;
@@ -70,7 +70,7 @@ section{
 
 .producto{
     height: 950px;
-    background-image: url("assets/images/fondoprueba.png");
+    background-image: url("../images/fondoprueba.png");
     background-size: 1910px;
     background-position: top;
     background-color: white;
