@@ -120,17 +120,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: rgba(144,238,144,0.38);
+    min-height: 80vh;
 }
 
 .consulta .container{
 
     position: relative;
     min-width: 1100px;
-    min-height:550px ;
+    min-height:650px ;
     display: flex;
     z-index: 1000;
+
 }
 .consulta .container .contactInfo
 {
@@ -299,6 +299,76 @@ section{
 .consulta .container .contactForm .formBox .inputBox input[type="submit"]:hover{
     background: #BCEFB3;
     color: #1E8F59;
+}
+
+.TituloPremium{
+
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 43px;
+}
+
+.containerPago{
+    margin: 0 auto;
+    width: 700px;
+
+}
+
+.premium{
+    padding-top: 2rem;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+text-center{
+
+    align-content: center;
+}
+
+.columnaPago{
+
+    background:white;
+    color:black;
+    border: 2px solid green;
+    margin: 10px;
+    padding:10px;
+    border-radius: 40px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%)
+}
+
+.precio{
+
+    font-size: 40px;
+    color: green;
+
+}
+
+.btn-precio{
+
+    background: rgba(8,39,66,3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+
+}
+
+.btn-precio:hover{
+
+    background: green;
+    color: white;
+
+}
+
+.styleBeneficios{
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 
