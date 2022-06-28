@@ -15,7 +15,10 @@
     text-transform: capitalize;
 }
 
-
+*::selection{
+    background:var(--verde2);
+    color:#fff;
+}
 
 html{
     font-size: 62.5%;
@@ -106,12 +109,12 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(../images/home-bg-img.png) no-repeat;
+    background:url(../assets/images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.home .image img{
+.home .logolearn{
     width:35vw;
     animation: float 3s linear infinite;
     transform: scaleY(-1);
@@ -180,11 +183,10 @@ header label{
 }
 
 .about{
-    background:url(../images/about-bg.png) no-repeat;
+    background:url(../assets/images/about-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
-    opacity: 0.66;
     
 }
 
@@ -212,12 +214,12 @@ header label{
 
 .about .column .content h3{
     font-size: 3rem;
-    color:rgb(28, 28, 28);
+    color:#666;
 }
 
 .about .column .content p{
     font-size: 1.5rem;
-    color:rgb(28, 28, 28);
+    color:#666;
     padding:1rem 0;
 }
 
@@ -425,7 +427,7 @@ header label{
 
 .footer{
     padding-top: 3rem;
-    background:url(../images/footer-bg.png) no-repeat;
+    background:url(../assets/images/footer-bg.png) no-repeat;
     background-size:auto;
     background-position: center;
     opacity:0.6;
@@ -582,7 +584,16 @@ header label{
 }
 
 @media (max-width:450px){
-    
+    .home .logolearn{
+        height: 20rem;
+        width: 30rem;
+    }
+    .home .btn{
+        
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
     html{
         font-size: 50%;
     }
