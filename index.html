@@ -1,293 +1,343 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LearnSign</title>
-    <link rel="icon" href="assets/images/unknown.png">
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <!-- iconos  -->
+    <script src="https://kit.fontawesome.com/b9cc0476ce.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- logo  -->
+    <link rel="icon" href="assets/images/learnlogo.png">
+
 </head>
 <body>
-<header class="fixed-top">
-    <nav class="navbar navbar-light me-5">
-        <a class="navbar-brand ms-4" href="#"><img src="assets/images/learn_sign.png" width="180px" height="50px"></a>
-        <ul class="nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#inicio" style="color:darkseagreen "><strong>Inicio</strong></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#producto" style="color:darkseagreen"><strong>Nuestro Producto</strong></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#funciona" style="color:darkseagreen"><strong>¿Cómo funciona?</strong></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#premium" style="color:darkseagreen"><strong>Modo Premium</strong></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#consulta" style="color:darkseagreen"><strong>Consulta</strong></a>
-            </li>
-        </ul>
+    
+<!-- nav  -->
+
+<header>
+
+    <a href="#"><span><img class="logo" src="assets/images/learn_sign.png"></span></a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#features">características</a>
+        <a href="#about">Acerca de</a>
+        <a href="#review">Reseñas</a>
+        <a href="#pricing">Precios</a>
+        <a href="#contact">Contacto</a>
     </nav>
+
 </header>
-<section class="inicio" id="inicio">
-    <div class="cover d-flex justify-content-center align-items-center flex-column pb-5">
-        <a class="mb-n1">
-            <img src="assets/images/manito.png" width="200px">
-        </a>
-        <a class="">
-            <img src="assets/images/learn_sign.png" width="700px">
-        </a>
-        <h2 class="py-5 col-lg-7 text-center">
-            Una nueva manera de aprender el lenguaje de señas de forma<span>
-            más interactiva y divertida</span>
-        </h2>
+
+ 
+
+<!-- inicio -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>LearnSign<span> app</span></h3>
+        <p>Una nueva manera de aprender el lenguaje de señas de forma más interactiva y divertida</p>
+        <a href="#" class="btn">descarga ahora</a>
+    </div>
+
+    <div class="image">
+        <img src="assets/images/home-img.png">
+    </div>
+
+</section>
+
+ 
+
+<!-- caracteristicas  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> características de la app </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/images/f-icon1.png" alt="">
+            <h3>Mejora de la comunicación</h3>
+            <p>Nos enfocamos en disminuir los problemas de comunicacion con las
+                personas con dificultades auditivas y del habla.</p>
+            <a href="#" class="btn">mas información</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/f-icon2.png" alt="">
+            <h3>Al alcance de todos</h3>
+            <p>Cualquier persona puede aprender gracias a nuestra metodología amigable
+                de manera gratuita.</p>
+            <a href="#" class="btn">mas información</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/f-icon3.png" alt="">
+            <h3>Aplicación interactiva</h3>
+            <p>Buscamos optimizar el aprendizaje
+                de señas mediante formas didácticas y divertidas.</p>
+            <a href="#" class="btn">mas información</a>
+        </div>
+
+    </div>
+
+</section>
+
+ 
+
+<!-- acerca de -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> ACERCA DE LA APP </h1>
+
+    <div class="column">
+
+        <div class="image" >
+            <img src="assets/images/about-img.png">
+        </div>
+
+        <div class="content">
+            <h3>la app ideal para aprender lenguaje de señas</h3>
+            <p>LearnSign es una aplicación para dispositivos móviles que será utilizado para aprender el lenguaje de señas, con el fin de mejorar la comunicación con las personas con discapacidades auditivas o del habla.</p>
+            <p>Mediante la aplicación se podrá acceder a unos tests interactivos con imágenes animadas y diverso material complementario para que nuestros usuarios puedan aprender el lenguaje de señas a cualquier hora del día y de esta forma ser más inclusivos con la sociedad.</p>
+            <div class="buttons">
+                <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
+                <a href="#" class="btn"> <i class="fab fa-google-play"></i> google-play </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- video -->
+
+<section class="product-video">
+    <h1 class="heading"> Descubre LearnSign </h1>
         <div>
-            <a href="#" class="btn lg-d-none-block">
-                <img src="https://llamafood.com/assets/images/button-playStore.svg">
-            </a>
-            <a href="#" class="btn lg-d-none-block">
-                <img src="https://llamafood.com/assets/images/appstore-mobile.svg" width="180px">
-            </a>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/61cq5PovBJ8"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
         </div>
-
-    </div>
 </section>
-<section class="producto" id="producto">
-    <h1 class="text-center mt-4">
-        Nuestro producto
-    </h1>
-    <div class="container mt-5 mb-5">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
-                <div class="card">
-                    <div class="cover cover-small1" style="background-image: url(assets/images/comprender.PNG)">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center" style="color:green">Comprender mejor a los sordomudos</h5>
-                        <p class="card-text text-center">Nos enfocamos en disminuir los problemas de comunicacion con las
-                            personas con dificultades auditivas y del habla.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
-                <div class="card">
-                    <div class="cover cover-small1" style="background-image: url(assets/images/imagen_señas1.png)">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center"style="color:green">Al alcance de todos</h5>
-                        <p class="card-text text-center">Cualquier persona puede aprender gracias a nuestra metodología amigable
-                            de manera gratuita.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-2">
-                <div class="card">
-                    <div class="cover cover-small1" style="background-image:url(assets/images/interactivo.PNG)">
 
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center" style="color:green">Aplicación interactiva</h5>
-                        <p class="card-text text-center">Buscamos optimizar el aprendizaje
-                            de señas mediante formas didácticas y divertidas.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="funciona" id="funciona">
-    <h1 class="text-center mt-4">
-        ¿Cómo funciona?
-    </h1>
-    <div class="container mt-5 mb-5 d-flex">
-        <div class="video-product">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/61cq5PovBJ8"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-        </div>
-        <div class="content mx-5">
-            <img src="assets/images/unknown.png" width="120px" class="pb-3">
-            <h2 class="my-4">
-                Descubre LearnSign
-            </h2>
-            <p>
-                El aprendizaje
-                <br>
-                en la palma de tu mano.
-            </p>
+<!-- reseñas -->
 
-            <a href="#" class="btn">
-                <img src="https://llamafood.com/assets/images/button-playStore.svg">
-            </a>
-            <a href="#" class="btn">
-                <img src="https://llamafood.com/assets/images/appstore-mobile.svg" width="180px">
-            </a>
-        </div>
-    </div>
-    <h1 class="text-center">
-        Diversos tópicos
-    </h1>
-    <div class="container mt-3 mb-5">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
-                <div class="card" style="width: 200px">
-                    <div class="cover cover-small2" style="background-image: url(assets/images/abecedario.png)">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center" style="color:green">Abecedario</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
-                <div class="card" style="width: 200px">
-                    <div class="cover cover-small2" style="background-image: url(assets/images/numeros.png)">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center"style="color:green">Números</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
-                <div class="card" style="width: 200px">
-                    <div class="cover cover-small2" style="background-image:url(assets/images/animales.png)">
+<section class="review" id="review">
 
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center" style="color:green">Animales</h5>
-                    </div>
+    <h1 class="heading"> reseñas </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="assets/images/pic1.png" alt="">
+                <h3>juliana rodríguez</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
-                <div class="card" style="width: 200px">
-                    <div class="cover cover-small2" style="background-image: url(assets/images/saludos.png)">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center" style="color:green">Saludos</h5>
-                    </div>
+                <div class="comment">
+                   Learnsign me ayudo a comunicarme mejor con mi hijo quien padece de discapacidades auditivas y del habla. Es muy interactiva y me motiva a seguir aprendiendo. Se la recomiendo a todo el mundo, agradezco mucho el enfoque hacia la solucion de este problema de comunicacion.
                 </div>
             </div>
         </div>
-    </div>
-    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-        <button class="btn btn-success me-md-2" type="button">Descubre más</button>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="assets/images/pic2.png" alt="">
+                <h3>jonny garcía</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="comment">
+                    Decidí aprender el lenguaje de señas para ser más inclusivo con la sociedad y en la búsqueda de métodos para aprender el lenguaje encontré esta gran aplicación. Es muy flexible ya que puedo aprender a cualquier hora y en cualquier lugar, tambien posee un gran catálogo de test interactivos.
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="assets/images/pic3.png" alt="">
+                <h3>sarah díaz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="comment">
+                    Necesitaba aprender el lenguaje de señas debido a que comence a poseer discapacidades auditivas y del habla a causa de un accidente. Learnsign me ayudo a mejorar mi comunicación y me motiva a seguir aprendiendo. Es facil de usar y ver mi progreso me incentiva a mejorar.
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </section>
-<section class="premium" id="premium">
-    <h1 class="text-center mt-5">
-        Modo premium
-    </h1>
-    <div class="container mt-3 mb-5 d-flex align-items-center">
-        <div class="d-flex align-items-center mb-5">
-            <div class="mb-5">
-                <img src="assets/images/persona-telefono.png" alt="Persona sosteniendo telefono" width="500px">
-            </div>
-        </div>
-        <div class="containerPago text-center pt-1 d-flex">
 
-            <div class="columnaPago">
+<!-- precios  -->
 
-                <h1 class="TituloPremium">Plan Premium LearnSign</h1>
-                <img src="assets/images/estrella.png" width="300px" >
-                <p class="precio">$3.00/mes</p>
-                <p style="font-size: 20px ">Learnsign es una aplicación que busca ayudar a más personas a aprender este hermoso lenguaje. </p>
-                <p style="font-size: 20px">Con tu membresía nos ayudas a seguir mejorando</p>
-                <hr>
-                <h1 >Beneficios</h1>
-                <p class="styleBeneficios" >
-                    <img src="assets/images/vidas1.png">
-                    Vidas infinitas</p>
-                <p class="styleBeneficios">
-                    <img src="assets/images/anuncio.png" width="30px">
-                    Cero anuncios</p>
-                <hr>
-                <a href="#" class="btn-precio btn-precio:hover">Comprar</a>
+<section class="pricing" id="pricing">
 
-            </div>
+    <h1 class="heading"> Nuestros planes </h1>
 
-        </div>
-    </div>
+    <div class="box-container">
 
-</section>
-<section class="consulta" id="consulta">
-    <div class="container">
-        <div class="contactInfo">
-            <div>
-                <h2>Contacto</h2>
-                <ul class="info">
-                    <li>
-                        <span><img src="assets/images/location.png"></span>
-                        <span>
-                             Lima, Perú<br>
-                            </span>
-                    </li>
-                    <li>
-                        <span><img src="assets/images/mail.png"></span>
-                        <span>LearnSign@gmail.com</span>
-                    </li>
-                    <li>
-                        <span><img src="assets/images/call.png"></span>
-                        <span>999-999-999</span>
-                    </li>
-                </ul>
-            </div>
-            <ul class="iconos">
-                <li><a target="_blank" href="https://www.facebook.com/LearnSign-100565572718022/?ref=page_internal"><img src="assets/images/1.png"></a></li>
-                <li><a target="_blank" href="https://twitter.com/learnSignn?t=CbSS7cvJUcJfCHuGhwsibA&s=09"><img src="assets/images/2.png"></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/learn_sign/?utm_source=qr"><img src="assets/images/3.png"></a></li>
-                <li><a target="_blank" href="#"><img src="assets/images/4.png"></a></li>
+        <div class="box">
+            <h3 class="title">standard</h3>
+            <div class="price">Gratis</div>
+            <ul>
+                <li> <i class="fas fa-check"></i> Test Diarios </li>
+                <li> <i class="fas fa-check"></i> Estadísticas del progreso </li>
+                <li> <i class="fas fa-check"></i> Test por niveles </li>
+                <li> <i class="fas fa-times"></i> Vidas Infinitas </li>
             </ul>
+            <a href="#" class="btn">verificar</a>
         </div>
 
-        <div class="contactForm">
-            <h2>Escribe tu consulta</h2>
-            <div class="formBox">
-                <div class="inputBox w50">
-                    <input type="text" required>
-                    <span>Nombre</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="text" required>
-                    <span>Apellido</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="email" required>
-                    <span>Email</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="email" required>
-                    <span>Telefono</span>
-                </div>
-                <div class="inputBox w100">
-                    <textarea required></textarea>
-                    <span>Mensaje</span>
-                </div>
-                <div class="inputBox w100">
-                    <input type="submit" value="Enviar">
-                </div>
-            </div>
+        <div class="box">
+            <h3 class="title">premium</h3>
+            <div class="price">$3<span>/mensuales</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> Test Diarios </li>
+                <li> <i class="fas fa-check"></i> Estadísticas del progreso </li>
+                <li> <i class="fas fa-check"></i> Test por niveles </li>
+                <li> <i class="fas fa-check"></i> Vidas Infinitas </li>
+            </ul>
+            <a href="#" class="btn">verificar</a>
         </div>
+
     </div>
-
 
 </section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/scripts/main.js"></script>
-<script type="text/javascript">
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-        max: 25,
-        speed: 400
-    });
-</script>
+<!-- contacto-->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="assets/images/contact-img.png" alt="">
+    </div>
+
+    <form action="">
+
+        <h1 class="heading">Contáctanos</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>Nombre</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>correo</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="number" required>
+            <label>teléfono</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>mensaje</label>
+        </div>
+
+        <input type="submit" class="btn" value="Enviar mensaje">
+
+    </form>
+
+</section>
+
+<!-- footer  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Acerca de nosotros</h3>
+            <p>Somos un grupo cuya misión es crear una nueva manera de aprender el lenguaje de señas de forma más interactiva y divertida a través de una aplicación que esté al alcance de las personas en todo momento.</p>
+        </div>
+
+        <div class="box">
+            <h3>Enlaces</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Funciones</a>
+            <a href="#">Acerca</a>
+            <a href="#">reseñas</a>
+            <a href="#">precio</a>
+            <a href="#">contacto</a>
+        </div>
+
+        <div class="box">
+            <h3>Síguenos!</h3>
+            <div class="info">
+                <i class="fa-brands fa-facebook"></i>
+                <p><a href="https://www.facebook.com/LearnSign-100565572718022/?ref=page_internal">facebook</a> </p>
+            </div>
+            <div class="info">
+                <i class="fa-brands fa-instagram"></i>
+                <p><a href="https://www.instagram.com/learn_sign/?utm_source=qr">instagram</a> </p>
+            </div>
+            <div class="info">
+                <i class="fa-brands fa-twitter-square"></i>
+                <p><a href="https://twitter.com/learnSignn?t=CbSS7cvJUcJfCHuGhwsibA&s=09">twitter</a> </p>
+            </div>
+            <div class="info">
+                <i class="fa-brands fa-linkedin"></i>
+                <p><a href="https://www.linkedin.com/login/es">linkedin</a></p>
+            </div>
+            
+            
+        </div>
+
+        <div class="box">
+            <h3>info de contacto</h3>
+            <div class="info">
+                <i class="fas fa-phone"></i>
+                <p> +123-456-7890 <br> +111-2222-333 </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-envelope"></i>
+                <p> LearnSign@gmail.com <br> TeamSign@gmail.com </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p> Lima, Perú - 777 </p>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <h1 class="credit"> &copy; copyright @ 2022 by team sign </h1>
+
+</div>
+
 </body>
 </html>
