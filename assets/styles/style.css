@@ -178,7 +178,7 @@ header label{
 
 .features .box-container .box p{
     font-size: 1.3rem;
-    color:#666;
+    color:#333;
     padding: 1rem 0;
 }
 
@@ -187,6 +187,7 @@ header label{
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
+    opacity: 0.69;
     
 }
 
