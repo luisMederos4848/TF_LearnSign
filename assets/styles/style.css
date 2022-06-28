@@ -109,12 +109,12 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(images/home-bg-img.png) no-repeat;
+    background:url(../assets/images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.home .logolearn{
+.home .image img{
     width:35vw;
     animation: float 3s linear infinite;
     transform: scaleY(-1);
@@ -178,16 +178,15 @@ header label{
 
 .features .box-container .box p{
     font-size: 1.3rem;
-    color:#333;
+    color:#666;
     padding: 1rem 0;
 }
 
 .about{
-    background:url(images/about-bg.png) no-repeat;
+    background:url(../assets/images/about-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
-    opacity: 0.69;
     
 }
 
@@ -428,7 +427,7 @@ header label{
 
 .footer{
     padding-top: 3rem;
-    background:url(images/footer-bg.png) no-repeat;
+    background:url(../assets/images/footer-bg.png) no-repeat;
     background-size:auto;
     background-position: center;
     opacity:0.6;
@@ -585,16 +584,7 @@ header label{
 }
 
 @media (max-width:450px){
-    .home .logolearn{
-        height: 20rem;
-        width: 30rem;
-    }
-    .home .btn{
-        
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+    
     html{
         font-size: 50%;
     }
