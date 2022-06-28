@@ -187,7 +187,7 @@ header label{
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
-    opacity: 0.55;
+    opacity: 0.66;
     
 }
 
@@ -215,12 +215,12 @@ header label{
 
 .about .column .content h3{
     font-size: 3rem;
-    color:#000;
+    color:rgb(28, 28, 28);
 }
 
 .about .column .content p{
     font-size: 1.5rem;
-    color:#000;
+    color:rgb(28, 28, 28);
     padding:1rem 0;
 }
 
