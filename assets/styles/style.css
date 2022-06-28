@@ -114,7 +114,7 @@ header label{
     background-position: center;
 }
 
-.home .image img{
+.home .logolearn{
     width:35vw;
     animation: float 3s linear infinite;
     transform: scaleY(-1);
@@ -178,7 +178,7 @@ header label{
 
 .features .box-container .box p{
     font-size: 1.3rem;
-    color:#666;
+    color:#333;
     padding: 1rem 0;
 }
 
@@ -187,6 +187,7 @@ header label{
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
+    opacity: 0.69;
     
 }
 
@@ -584,7 +585,16 @@ header label{
 }
 
 @media (max-width:450px){
-    
+    .home .logolearn{
+        height: 20rem;
+        width: 30rem;
+    }
+    .home .btn{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
     html{
         font-size: 50%;
     }
