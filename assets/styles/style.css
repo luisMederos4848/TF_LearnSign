@@ -15,10 +15,7 @@
     text-transform: capitalize;
 }
 
-*::selection{
-    background:var(--verde2);
-    color:#fff;
-}
+
 
 html{
     font-size: 62.5%;
